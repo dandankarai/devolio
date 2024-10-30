@@ -1,0 +1,7 @@
+export const myResume =
+	`FullStack Developer with solid experience in front-end development. My passion is creating innovative and scalable solutions using modern technologies. I am proficient in JavaScript, TypeScript, Node.js, React and React Native, which allows me to develop high-performance web and mobile applications and interactive interfaces With knowledge of Scrum and agile methodologies, I am a fan of team collaboration and continuous deliveries.
+    
+    My goal is to continue growing as a professional, facing challenges and always seeking to improve my technical skills. We are always open to new exciting opportunities and challenging projects. Let's connect and talk about how I can add value to your team and projects.FullStack Developer with solid experience in front-end development. My passion is creating innovative and scalable solutions using modern technologies. 
+    
+    
+    I am proficient in JavaScript, TypeScript, Node.js, React and React Native, which allows me to develop high-performance web and mobile applications and interactive interfaces With knowledge of Scrum and agile methodologies, I am a fan of team collaboration and continuous deliveries. My goal is to continue growing as a professional, facing challenges and always seeking to improve my technical skills. We are always open to new exciting opportunities and challenging projects. Let's connect and talk about how I can add value to your team and projects.`;
