@@ -4,35 +4,95 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Ava from '@src/assets/img/Profile.jpeg';
 import Prose from '../components/Prose.astro';
 import { myResume } from '@src/constants/myResume';
-
 ---
 
-<BaseLayout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
->
-  <div class='container'>
+<BaseLayout title='About Me' description='Lorem ipsum dolor sit amet'>
+	<div class='container'>
 		<main class='prose text-lg dark:prose-invert'>
-      <article>
-        <div class='w-full md:flex md:items-center gap-16 mb-10'>
-          <div class="text-pretty leading-9">
-            <h1 class="text-4xl font-bold mb-4">Hi There 👋, Daniel Cunha! </h1>
-            <Prose>
-              <div class="text-lg">
-               
-                FullStack Developer with solid experience in front-end development. My passion is creating innovative and scalable solutions using modern technologies. I am proficient in JavaScript, TypeScript, Node.js, React and React Native, which allows me to develop high-performance web and mobile applications and interactive interfaces With knowledge of Scrum and agile methodologies, I am a fan of team collaboration and continuous deliveries
-              </div>
-            </Prose>
-          </div>
-          <Image src={Ava} alt="Muhammad Syakirurohman" width={300}  class="rounded-3xl rotate-3 mx-4 md:mx-0"/>
-        </div>     
-        <div>
-          <p>
-           My experience [comming soon]
-          </p>
-        </div>
-        </article>
-      </article>
-    </main>
-  </div>
-</BaseLayout>
+			<article>
+				<div class='w-full md:flex md:items-center gap-16 mb-10'>
+					<div class='text-pretty leading-9'>
+						<h1 class='text-4xl font-bold mb-4'>Hi There 👋, Daniel Cunha!</h1>
+						<Prose>
+							<div class='text-lg'>
+								FullStack Developer with solid experience in front-end development. My passion is creating innovative and scalable solutions
+								using modern technologies. I am proficient in JavaScript, TypeScript, Node.js, React and React Native, which allows me to
+								develop high-performance web and mobile applications and interactive interfaces With knowledge of Scrum and agile
+								methodologies, I am a fan of team collaboration and continuous deliveries
+							</div>
+						</Prose>
+					</div>
+					<Image src={Ava} alt='Muhammad Syakirurohman' width={300} class='rounded-3xl rotate-3 mx-4 md:mx-0' />
+				</div>
+				<div>
+					<Prose>
+						<h3>Stefanini Group</h3>
+						<h4>03-2024 - Current -- Mid Frontend Developer</h4>
+						<div class='text-lg mt-2 mb-2' >
+							Built consortium sales platform using GraphQL and microfrontends for efficiency and scalability. Implemented back-for-frontend
+							for streamlined communication and maintainability.I currently work on Caixa Seguradora applications, using React Native for
+							maintenance and new implementations
+						</div>
+						<div>
+							<b>Skills:</b> Unit Testing - NestJs - TypeScript - GraphQL - React - ApolloGraphQL
+						</div>
+
+            <hr class='border-t-2 border-gray-300 dark:border-gray-600' />
+
+						<h3>ília</h3>
+						<h4>12-2022 - 01-2024 -- Frontend Developer</h4>
+						<div class='text-lg mt-2 mb-2'>
+							With an allocation at Livelo, I worked with React Native and the implementation of the Algolia search tool. My role involved
+							developing efficient and enhanced mobile applications, with a special focus on improving the product details pages (PDPs) and
+							the shopping home page
+						</div>
+						<!-- <div> -->
+              
+						<b>Skills:</b> Algolia - TypeScript - Styled Components - ReactJS - React Native - Unit Tests </b>
+
+              <hr class='border-t-2 border-gray-300 dark:border-gray-600' />
+
+							<h3>Start Coders</h3>
+							<h4>09-2021 - 11-2022 -- Freelancer Frontend Developer</h4>
+							<div class='text-lg mt-2 mb-2'>
+								I worked as a freelancer, collaborating on projects for non-governmental organizations (NGOs). During this experience, I
+								focused on developing effective and personalized solutions, contributing to significant causes and promoting a positive
+								impact through technology
+							</div>
+							<div>
+								<b>Skills:<b></b> Styled-components - JQuery - Next.js - React.js - React Native - JavaScript </b>
+							</div>
+
+              <hr class='border-t-2 border-gray-300 dark:border-gray-600' />
+
+							<h3>My Side</h3>
+							<h4>09-2021 - 11-2022 -- Frontend Developer</h4>
+							<div class='text-lg mt-2 mb-2'>
+								Migration of the React platform to Next focusing on performance and responsive design. In addition component and function
+								tests to deliver the best to the user. Creation of new features for the platform always focusing on SEO best practices
+							</div>
+							<div>
+								<b
+									>Skills:<b></b>
+									TypeScript - Sentry - Next.js - React.js - Responsive Web Design - Node.js - SEO
+								</b>
+							</div>
+
+              <hr class='border-t-2 border-gray-300 dark:border-gray-600' />
+							<h3>Lunes</h3>
+							<h4>11-2021 - 03-2022 -- Frontend Developer</h4>
+							<div class='text-lg mt-2 mb-2'>
+								I conducted a comprehensive refactor of the LunesPay app using React Native technology. My contribution included improving
+								the existing code for a better user experience.
+							</div>
+							<div>
+								<b>Skills:<b> TypeScript - Sentry - Next.js - React.js - Responsive Web Design - Node.js - SEO </b> </b>
+							</div>
+							<!-- </div> -->
+						
+					</Prose>
+				</div>
+			</article>
+		</main>
+	</div></BaseLayout
+>
